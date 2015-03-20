@@ -1,0 +1,69 @@
+### Site info:
+title: 冰舞's Blog
+tagline: 风来我应，风去不留。
+author: 冰神舞
+email: ic3evi1@sina.com
+description: 这是冰神舞的一个博客，它是基于 Jekyll 搭建起来的。在这里，是用来快速记录工作，学习，生活的一点一滴的地方。
+keywords: 冰神舞, GitHub, Jekyll, 生活日志, Works, Archives, Quotes, 网络安全, css, html, javascript,logo, design, geek
+baseurl: "" # does not include hostname
+url: http://ic3evil.github.io # the base hostname & protocol for your site
+
+
+### Personal info and site tools info:
+twitter_username: 
+github_username:  ic3evil
+disqus_shortname: ic3evi1
+favicon:     "/images/favicon.ico"
+aboutme: 我是「冰神舞」，好奇心十足的菜鸟，侵淫互联网好多年，荒废了学业和事业，靠出卖体力谋生。
+aboutme_photo: http://ww2.sinaimg.cn/mw690/0063aUwXjw8epw3v98ttmj30dw0dwt9s.jpg # your photo.
+
+
+### Site setting:
+ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
+default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
+default_locale: "cn" # blog sidebar language set, only include: English(en) and Chinese (cn)
+
+locales:
+    en:
+      Aboutme: "About Me"
+      Archives: "Archives"
+      Blogroll: "Blogroll"
+      Categories: "Categories"
+      Copyright_Notice: "Copyright Notice"
+      Recent_Posts: "Recent Posts"
+      Tags: "Tags"
+      Previous: "Older"
+      Next: "Newer"
+      PostedInCategories: "Posted in"
+      Taggedwith: "and tagged"  
+      PostDate: "on "
+    cn:
+      Aboutme: "关于我"
+      Archives: "存档"
+      Blogroll: "良师益友"        
+      Categories: "分类目录"    
+      Copyright_Notice: "版权声明"
+      Recent_Posts: "近期文章"
+      Tags: "标签" 
+      Previous: "前一页"
+      Next: "后一页"
+      PostedInCategories: "目录:"   
+      Taggedwith: "| 标签:"
+      PostDate: "| 发表时间: "
+
+
+### your Blogroll info, only name can shown on the page.
+
+Blogroll:
+    - name: ic3evi1
+      href: http://ic3evil.github.io
+      title: Another Jekyll blog theme
+    - name: author's website
+      href: http://ice5.cn/
+      title: 冰神舞's website
+
+
+### Build settings
+markdown: kramdown
+highlighter: pygments
+paginate: 5
